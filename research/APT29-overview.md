@@ -10,7 +10,7 @@ Long-term persistence
 
 # Known techniques include:
 
-Spear phishing
-PowerShell execution
-Credential dumping
-Remote services
+Spear phishing, 
+ PowerShell execution,
+ Credential dumping,
+ Remote services
