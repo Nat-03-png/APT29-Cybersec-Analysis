@@ -4,9 +4,9 @@ APT29, also known as Cozy Bear, is a sophisticated threat actor widely associate
 
 # Common objectives include:
 
-Intelligence gathering
-Credential theft
-Long-term persistence
+Intelligence gathering, 
+ Credential theft,
+ Long-term persistence
 
 # Known techniques include:
 
