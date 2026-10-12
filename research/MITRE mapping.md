@@ -1,28 +1,18 @@
 MITRE ATT&CK mapping 
 
-ATT&CK tactic 
-technique 
-ID 
-Description 
-Initial access 
-Spear phishing attachment 
-T1566.001 
-Malicious email attachments used to gain access 
-execution 
-powershell 
-T1059.001 
-Commands executed through PowerShell such as “get -   computerinfo” 
-persistence 
-Scheduled task/job 
-T1053.005 
-Scheduled tasks used to maintain access 
-Credential access 
-OS credential dumping 
-T1003 
-Extraction of account credentials 
-Command &  
-control 
-Application layer protocol 
-T1071 
-Communication with attacker-controlled servers. 
+ ATT&CK                        Technique                     ID                              Description 
+
+ initial access      |   spear phishing attachment     | T1566.001 |         Malicious email attachments used to gain access
+
+ execution           |   PowerShell                    | T1059.001 |         Commands executed through PowerShell. Such as “computer- 
+                                                                             getinfo"
  
+ persistance         |   scheduled task/job            | T1053.005 |         Scheduled tasks used to maintain access.
+
+ credential access.  |   OS credential dumping         | T1003     |         Extraction of account credentials
+
+ command and control |   application layer protocol    | T1071     |         Communication with attacker-controlled servers. 
+
+SUMMARY
+APT29 commonly uses phishing for initial access, PowerShell for execution, scheduled tasks for persistence, credential dumping for credential access, and encrypted network communications for command and control. 
+
