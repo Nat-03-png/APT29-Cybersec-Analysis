@@ -1,11 +1,4 @@
-rule PowerShell_Usage
-{
-    strings:
-        $ps = "powershell"
 
-    condition:
-        $ps
-}
 
 # Explanation
 
@@ -18,3 +11,4 @@ Why this matters:
 
 MITRE ATT&CK:
 - T1059.001 PowerShell
+
