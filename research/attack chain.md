@@ -67,18 +67,4 @@ Once access has been established, attackers may:
 - Maintain long-term access
 - Conduct espionage activities
 
----
 
-# Attack Flow Diagram
-
-Spearphishing
-    ↓
-PowerShell Execution
-    ↓
-Persistence
-    ↓
-Credential Access
-    ↓
-Command & Control
-    ↓
-Data Collection
