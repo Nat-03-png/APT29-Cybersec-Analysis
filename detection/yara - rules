@@ -1,1 +1,20 @@
+rule PowerShell_Usage
+{
+    strings:
+        $ps = "powershell"
 
+    condition:
+        $ps
+}
+
+# Explanation
+
+This YARA rule searches for the text "powershell".
+
+Why this matters:
+- PowerShell is a legitimate Windows tool.
+- Threat actors may use PowerShell to execute commands and scripts.
+- The rule demonstrates the basics of pattern matching with YARA.
+
+MITRE ATT&CK:
+- T1059.001 PowerShell
