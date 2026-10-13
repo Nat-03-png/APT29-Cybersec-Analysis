@@ -16,7 +16,7 @@ Demonstrate my understanding of threat intelligence.
 
 Research: threat intelligence report 
 Detection: detection rules and examples 
-Screenshots: MITRE ATT&CK evidence 
+References: MITRE ATT&CK evidence 
  
 
 # SKILLS DEMONSTRATED 
