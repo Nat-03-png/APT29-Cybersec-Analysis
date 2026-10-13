@@ -13,6 +13,9 @@ MITRE ATT&CK mapping
 
  command and control |   application layer protocol    | T1071     |         Communication with attacker-controlled servers. 
 
+
+APT29 has been observed using PowerShell to execute commands and scripts on compromised systems. PowerShell can be used for system discovery, process enumeration, and automated task execution.
+
 SUMMARY
 APT29 commonly uses phishing for initial access, PowerShell for execution, scheduled tasks for persistence, credential dumping for credential access, and encrypted network communications for command and control. 
 
